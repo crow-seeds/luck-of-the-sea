@@ -1,0 +1,224 @@
+@font-face {
+  font-family: "rainy hearts";
+  src: url(rainyhearts.ttf);
+}
+
+html {
+    height: 100%;
+}
+
+body{
+  background-image: linear-gradient(to bottom, Teal, #3DCCCC);
+  font-family: "rainy hearts";
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  touch-action: manipulation;
+}
+
+.image{
+  position:absolute;
+}
+
+.box{
+  width:8vw;
+  height:8vw;
+}
+
+.slot{
+  position:absolute;
+  display:inline-block;
+  width:64vw;
+  height:8vw;
+}
+
+.slot ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  float: left;
+}
+
+.pointText{
+  font-family: "rainy hearts";
+  font-size: 4vh;
+  text-align: center;
+  color: rgba(255, 221, 0, 0);
+  position: absolute;
+  transition-duration: 200ms;
+  transform: translate(-50%, 0%);
+  transition-timing-function: ease-in-out;
+  user-select: none;
+}
+
+.infoText{
+  font-family: "rainy hearts";
+  font-size: 4vh;
+  line-height: 100%;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  display: block;
+  position: absolute;
+}
+
+.infoBox{
+  border-radius: 25px;
+  background-color: dimgray;
+  border: 0.5vw solid #333333;
+  position: absolute;
+}
+
+.infoButton {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  overflow: hidden;
+  outline:none;
+  position: absolute;
+  width:8vw;
+  height:8vw;
+  z-index:10;
+}
+
+.card{
+  border-radius: 25px;
+  background-color: white;
+  border: 0.5vw solid #CCCCCC;
+  width: 14vw;
+  height: 40vh;
+  top: 5vh;
+  position: absolute;
+  transition-duration: 200ms;
+}
+
+.cardImage{
+  width:10vw;
+  height:10vw;
+  top:5vh;
+  left:1vw;
+  position: absolute;
+}
+
+.cardText{
+  font-family: "rainy hearts";
+  text-decoration: underline;
+  font-size: 3.3vh;
+  top: 1.5vh;
+  line-height: 100%;
+  text-align: center;
+  color: rgb(180, 180, 180);
+  display: block;
+  position: absolute;
+  left:-.5vw;
+  width:14vw;
+}
+
+.boxNumber{
+  font-size: 2vw;
+  top:8%;
+  left:45%;
+  position:absolute;
+}
+
+.title{
+  font-size: 7rem;
+  font-weight: 900;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.subtitle{
+  font-size: 5rem;
+  color: Gold;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+hr {
+    border: none;
+    height: 20px;
+    background-color: Black;
+}
+
+.blackOverlay{
+  height:100vh;
+  width:100vw;
+  background-color: rgba(0,0,0,0.5);
+  z-index:12;
+  position:absolute;
+}
+
+.container{
+  display: block;
+  margin: auto;
+  overflow: auto;
+  position: relative;
+  top: 5%;
+  left: 0%;
+}
+
+.introButton {
+  background-color: white;
+  border: 8px solid black;
+  color: black;
+  padding: 20px;
+  font-weight: 400;
+  width: 40%;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 16px auto;
+  transition-duration: 0.4s;
+  outline:none;
+  overflow: hidden;
+  font-size: 4rem;
+  box-shadow:
+    inset 0 0 0 8px #ccc;
+}
+
+.backButton{
+  background-color: rgba(0,0,0,0);
+  border: none;
+  color: black;
+  padding: 20px;
+  font-weight: 400;
+  width: 40%;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 16px auto;
+  transition-duration: 0.4s;
+  outline:none;
+  overflow: hidden;
+
+  font-size: 4rem;
+}
+
+.introButton:hover {
+  background-color: #eee;
+}
+
+
+.input{
+  font-size: 2rem;
+
+  background-color: #EDF1F7;
+  border-width: 0px;
+  border-style: hidden;
+  border-bottom: solid 10px;
+  border-bottom-color: #444444;
+  padding: 20px;
+  font-weight: 400;
+  width: 40%;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 8px auto;
+  outline:none;
+  font-size: 3rem;
+}
