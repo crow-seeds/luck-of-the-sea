@@ -1,11 +1,11 @@
 var firebaseConfig = {
-  apiKey: "AIzaSyB9MbNZNRbWJ0MxvGI2Gpimna72dN5o6FM",
-  authDomain: "luck-of-the-sea.firebaseapp.com",
-  databaseURL: "https://luck-of-the-sea-default-rtdb.firebaseio.com",
-  projectId: "luck-of-the-sea",
-  storageBucket: "luck-of-the-sea.appspot.com",
-  messagingSenderId: "258655335070",
-  appId: "1:258655335070:web:545670614f6d01e60ac18f"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
 
 var roomCode;
